@@ -1,0 +1,83 @@
+body
+{
+  background: url(./img/bsit.jpg) no-repeat center fixed; 
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+a 
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  color: whitesmoke;
+}
+a:hover
+{
+  color: red;
+}
+#focebook
+{
+  margin-right: 20px;
+}
+.pages
+{
+  text-decoration: none;
+}
+.center_vertical
+{
+  margin-top: 250px;
+}
+.footer
+{
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+}
+#profile_img
+{
+  box-shadow: 10px 10px 18px red;
+}
+.inline
+{
+  display: inline-block;
+  margin: 20px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #110e0e;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid rgb(149, 1, 1);
+  width: 80%;
+  box-shadow: 10px 10px 18px red;
+}
+
+.close {
+  color: #ebe5e5;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(222, 20, 20);
+  text-decoration: none;
+  cursor: pointer;
+}
